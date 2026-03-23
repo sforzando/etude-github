@@ -2,22 +2,22 @@
   "name": "etude-github",
   "version": "1.0.0",
   "description": "GitHub Practice Repository for Beginners",
+  "keywords": [],
+  "author": "sforzando LLC. and Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sforzando/etude-github/issues"
+  },
+  "homepage": "https://github.com/sforzando/etude-github#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sforzando/etude-github.git"
+  },
   "scripts": {
     "prepare": "husky",
     "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
     "commit": "cz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sforzando/etude-github.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sforzando/etude-github/issues"
-  },
-  "homepage": "https://github.com/sforzando/etude-github#readme",
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
-    "commitizen": "^4.3.1",
+    "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.7",
     "markdownlint-cli2": "^0.22.0"
