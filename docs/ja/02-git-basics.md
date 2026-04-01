@@ -53,4 +53,3 @@ git log --oneline
 1. `docs/` ディレクトリに `hello.md` という名前の新しいファイルを作成してください。
 2. `npm run commit` を使用して、そのファイルをステージングし、コミットしてください。
 3. [GitHub Flow](03-github-flow.md) に進んでください。
-Inline corrections
