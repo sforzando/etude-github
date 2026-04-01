@@ -10,14 +10,14 @@
 
 ## Git の設定
 
-コミットがあなた自身に帰属するように、ユーザー情報を設定します：
+コミットがあなた自身に帰属するように、ユーザー情報を設定します
 
 ```bash
 git config --global user.name "あなたの名前"
 git config --global user.email "you@example.com"
 ```
 
-設定を確認します:
+設定を確認します
 
 ```bash
 git config --list
@@ -25,7 +25,7 @@ git config --list
 
 ## リポジトリのクローン
 
-このリポジトリのローカルコピーを取得するには、以下を実行します:
+このリポジトリのローカルコピーを取得するには、以下を実行します
 
 ```bash
 git clone https://github.com/sforzando/etude-github.git
