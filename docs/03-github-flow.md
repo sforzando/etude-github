@@ -14,12 +14,12 @@ ship regularly. It has six steps:
 
 ## Branch Naming Conventions
 
-Use descriptive, lowercase, hyphen-separated names:
+Please use descriptive, lowercase names separated by underscore, with a 3-digit issue number padded with zeros at the beginning:
 
 ```text
-feature/add-login-page
-fix/broken-nav-link
-docs/update-readme
+002_add-login-page
+005_broken-nav-link
+007_update-readme
 ```
 
 ## Opening a Pull Request
