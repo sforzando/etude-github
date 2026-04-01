@@ -14,7 +14,7 @@ ship regularly. It has six steps:
 
 ## Branch Naming Conventions
 
-Please use descriptive, lowercase names separated by hyphens, with a 3-digit issue number padded with zeros at the beginning:
+Please use descriptive, lowercase names separated by underscore, with a 3-digit issue number padded with zeros at the beginning:
 
 ```text
 002_add-login-page
