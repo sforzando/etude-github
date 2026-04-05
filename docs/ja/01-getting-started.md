@@ -28,7 +28,7 @@ git config --list
 このリポジトリのローカルコピーを取得するには、以下を実行します
 
 ```bash
-git clone https://github.com/sforzando/etude-github.git
+ghq get https://github.com/sforzando/etude-github.git
 cd etude-github
 ```
 
