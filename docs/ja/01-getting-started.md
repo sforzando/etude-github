@@ -7,6 +7,7 @@
 - [Git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/)
 - [GitHub](https://github.com) アカウント
+- [ghq](https://github.com/x-motemen/ghq)
 
 ## Git の設定
 
