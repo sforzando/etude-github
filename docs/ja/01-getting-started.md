@@ -7,6 +7,7 @@
 - [Git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/)
 - [GitHub](https://github.com) アカウント
+- [ghq](https://github.com/x-motemen/ghq)
 
 ## Git の設定
 
@@ -28,7 +29,7 @@ git config --list
 このリポジトリのローカルコピーを取得するには、以下を実行します
 
 ```bash
-git clone https://github.com/sforzando/etude-github.git
+ghq get https://github.com/sforzando/etude-github.git
 cd etude-github
 ```
 
