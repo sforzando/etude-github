@@ -30,7 +30,7 @@ git config --list
 
 ```bash
 ghq get https://github.com/sforzando/etude-github.git
-cd etude-github
+cd [ghq.root]/github.com/sforzando/etude-github
 ```
 
 ## 演習
