@@ -7,6 +7,7 @@ Before you begin, make sure you have the following installed:
 - [Git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/)
 - A [GitHub](https://github.com) account
+- [ghq](https://github.com/x-motemen/ghq)
 
 ## Setting Up Git
 
@@ -29,7 +30,6 @@ To get a local copy of this repository, run:
 
 ```bash
 git clone https://github.com/sforzando/etude-github.git
-cd etude-github
 ```
 
 ## Practice Exercise
