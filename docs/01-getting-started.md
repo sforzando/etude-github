@@ -29,7 +29,7 @@ git config --list
 To get a local copy of this repository, run:
 
 ```bash
-git get https://github.com/sforzando/etude-github.git
+ghq get https://github.com/sforzando/etude-github.git
 ```
 
 ## Practice Exercise
