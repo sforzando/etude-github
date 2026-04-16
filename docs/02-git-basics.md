@@ -43,8 +43,16 @@ You will be guided through a prompt to write a well-formatted commit message.
 
 ### Viewing History
 
+Display the history one line at a time
+
 ```bash
 git log --oneline
+```
+
+Display a list of all branch forks
+
+```bash
+git log --graph --all
 ```
 
 ## Practice Exercise
