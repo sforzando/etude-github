@@ -49,7 +49,7 @@ Display the history one line at a time
 git log --oneline
 ```
 
-Display a list of all branch forks
+Display the commit graph across all branches
 
 ```bash
 git log --graph --all
