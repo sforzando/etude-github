@@ -1,0 +1,7 @@
+ignores:
+  - ".git"
+  - "node_modules"
+
+config:
+  default: true
+  MD013: false
