@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Before you begin, make sure you have the following installed:
+Before you begin, make sure you have the following installed
 
 - [Git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/)
@@ -11,18 +11,20 @@ Before you begin, make sure you have the following installed:
 
 ## Setting Up Git
 
-Configure your identity so that your commits are attributed to you:
+Configure your identity so that your commits are attributed to you
 
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-Verify your configuration:
+Verify your configuration
 
 ```bash
 git config --list
 ```
+
+If the name and email address you entered appear, the process was successful
 
 ## Cloning a Repository
 
