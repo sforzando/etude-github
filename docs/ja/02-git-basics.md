@@ -50,7 +50,7 @@ npm run commit
 git log --oneline
 ```
 
-全てのbranchの枝分かれ一覧表示
+全てのブランチの枝分かれ一覧表示
 
 ```bash
 git log --graph --all
