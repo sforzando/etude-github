@@ -44,8 +44,16 @@ npm run commit
 
 ### 履歴の確認
 
+履歴を1行ずつコンパクトに表示
+
 ```bash
 git log --oneline
+```
+
+全てのブランチの枝分かれ一覧表示
+
+```bash
+git log --graph --all
 ```
 
 ## 実践演習
