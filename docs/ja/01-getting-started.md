@@ -24,6 +24,8 @@ git config --global user.email "you@example.com"
 git config --list
 ```
 
+設定した名前とメールアドレスが表示されたら成功です
+
 ## リポジトリのクローン
 
 このリポジトリのローカルコピーを取得するには、以下を実行します
