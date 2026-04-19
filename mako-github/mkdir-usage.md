@@ -9,8 +9,10 @@
 
 ```bash
 cd ~
-cd /etude-github ←ここへ
 ```
+
+例:Users/mako/Workspace/github.com/sforzando/etude-github/mako-github
+`etude-github`←ここへいく
 
 ↓メインにいることを確認
 
@@ -42,14 +44,16 @@ mkdir ディレクトリ名
 
 > 2.ファイル`mkdir-usage.md`を作る
 
-- タイトル:`Create`mkdir-usage.md`
+- タイトル:Create`mkdir-usage.md`
 - 説明:`mako-github`ディレクトリの中に`mkdir-usage.md`というファイルが存在する
 
 ↓`mako-github`へ移動
 
 ```bash
-cd /Users/mako/Workspace/github.com/sforzando/etude-github/mako-github
+cd ~
 ```
+
+例:Users/mako/Workspace/github.com/sforzando/etude-github/mako-github
 
 ↓ファイルを作る
 
