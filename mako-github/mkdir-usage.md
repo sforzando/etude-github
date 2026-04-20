@@ -1,38 +1,38 @@
-# ディレクトリーを作る
+# GitHub作業用コマンド・チートシート
 
 > 1. *issueのタイトルと状態を明記する*
 
 - タイトル: **Create `mako-github` directory**
-- 説明: `etude-github`の中に`mako-github`が存在している
+- 説明: `etude-github`の中に`mako-github`という名前のディレクトリが存在している
 
-↓作業するディレクトリーに移動する
+↓作業するリポジトリに移動する
 
 ```bash
-cd ~
+cd ~/Workspace/github.com/sforzando/etude-github
 ```
 
-例:Users/mako/Workspace/github.com/sforzando/etude-github/mako-github
 `etude-github`←ここへいく
 
-↓メインにいることを確認
+↓main branchに移動します
 
 ```bash
-g sw main
+git sw main
 ```
 
-↓最新の状態を取り込む
+↓リモートリポジトリの最新状態を取得し、その情報をmainに反映させる
 
 ```bash
-g pull origin main
+git fetch
+git pull origin main
 ```
 
 ↓新しいbranchを作って移動
 
 ```bash
-g sw -c [ブランチ名]
+git switch -c [ブランチ名]
 ```
 
-例: `028_feature_directory`
+feat: `028_feature_directory`
 
 ↓ディレクトリーを作る
 
@@ -40,7 +40,7 @@ g sw -c [ブランチ名]
 mkdir ディレクトリ名
 ```
 
-例:`mako-github`
+feat:`mako-github`
 
 > 2.ファイル`mkdir-usage.md`を作る
 
@@ -50,10 +50,8 @@ mkdir ディレクトリ名
 ↓`mako-github`へ移動
 
 ```bash
-cd ~
+cd ~/Workspace/github.com/sforzando/etude-github
 ```
-
-例:Users/mako/Workspace/github.com/sforzando/etude-github/mako-github
 
 ↓ファイルを作る
 
@@ -61,33 +59,33 @@ cd ~
 touch ファイル名
 ```
 
-例:`mkdir-usage.md`
+feat:`mkdir-usage.md`
+
+↓変更されたファイル確認
+
+```bash
+git status
+```
+
+↓全ての変更をステージングする
+
+```bash
+git add .
+```
 
 ↓確認する
 
 ```bash
-g s
-```
-
-↓ステージングする
-
-```bash
-g add .
-```
-
-↓確認する
-
-```bash
-g s
+git status
 ```
 
 ↓コミットする
 
 ```bash
-g commit -m "コミット名"
+git commit -m "コミット名"
 ```
 
-例: `Create mako-github and mkdir-usage.md`
+feat: `Create mako-github and mkdir-usage.md`
 なにをしたか書く
 
 ↓確認する
@@ -99,18 +97,18 @@ g s
 ↓pushする
 
 ```bash
-g push origin 使っているブランチ名
+git push origin HEAD
 ```
 
-例: `028_feature_directory`
+feat: `028_feature_directory`
 
-↓プルリクを書く
+↓GitHub上でMerge pull request が完成した後
 
 ↓メイン移動
 
 ```bash
 
-g sw main
+git switch main
 
 ```
 
@@ -118,15 +116,15 @@ g sw main
 
 ```bash
 
-g pull origin main
+git pull origin main
 
 ```
 
-↓古いブランチを消す
+↓古いローカルブランチを消す
 
 ```bash
 
-g branch -d [使っていたブランチ]
+git branch -d [使っていたブランチ]
 
 ```
 
@@ -134,7 +132,7 @@ g branch -d [使っていたブランチ]
 
 ```bash
 
-g s
+git status
 
 ```
 
