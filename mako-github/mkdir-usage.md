@@ -100,8 +100,6 @@ git status
 git push origin HEAD
 ```
 
-feat: `028_feature_directory`
-
 ↓GitHub上でMerge pull request が完成した後
 
 ↓メイン移動
