@@ -91,7 +91,7 @@ feat: `Create mako-github and mkdir-usage.md`
 ↓確認する
 
 ```bash
-g s
+git status
 ```
 
 ↓pushする
