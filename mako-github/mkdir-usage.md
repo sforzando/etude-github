@@ -5,40 +5,23 @@
 - タイトル: **Create `mako-github` directory**
 - 説明: `etude-github`の中に`mako-github`という名前のディレクトリが存在している
 
-↓作業するリポジトリに移動する
+---
 
-```bash
-cd ~/Workspace/github.com/sforzando/etude-github
-```
+`cd ~/Workspace/github.com/sforzando/etude-github`-作業するリポジトリに移動する
 
 `etude-github`←ここへいく
 
-↓main branchに移動します
+`git sw main`-main branchに移動します
 
-```bash
-git sw main
-```
+`git fetch`-リモートリポジトリの最新状態を取得
 
-↓リモートリポジトリの最新状態を取得し、その情報をmainに反映させる
+`git pull origin main`-その情報をmainに反映させる
 
-```bash
-git fetch
-git pull origin main
-```
-
-↓新しいbranchを作って移動
-
-```bash
-git switch -c [ブランチ名]
-```
+`git switch -c [ブランチ名]`-新しいbranchを作って移動
 
 feat: `028_feature_directory`
 
-↓ディレクトリーを作る
-
-```Bash
-mkdir ディレクトリ名
-```
+`mkdir ディレクトリ名`-ディレクトリーを作る
 
 feat:`mako-github`
 
@@ -47,91 +30,38 @@ feat:`mako-github`
 - タイトル:Create`mkdir-usage.md`
 - 説明:`mako-github`ディレクトリの中に`mkdir-usage.md`というファイルが存在する
 
-↓`mako-github`へ移動
+`mako-github`へ移動
 
-```bash
-cd ~/Workspace/github.com/sforzando/etude-github
-```
+`cd ~/Workspace/github.com/sforzando/etude-github`
 
-↓ファイルを作る
-
-```bash
-touch ファイル名
-```
+`touch ファイル名`-ファイルを作る
 
 feat:`mkdir-usage.md`
 
-↓変更されたファイル確認
+`git status`-変更されたファイル確認
 
-```bash
-git status
-```
 
-↓全ての変更をステージングする
+`git add .`-全ての変更をステージングする
 
-```bash
-git add .
-```
+`git status`-確認する
 
-↓確認する
-
-```bash
-git status
-```
-
-↓コミットする
-
-```bash
-git commit -m "コミット名"
-```
+`git commit -m "コミット名"`-コミットする
 
 feat: `Create mako-github and mkdir-usage.md`
 なにをしたか書く
 
-↓確認する
+`git status`-確認する
 
-```bash
-git status
-```
+`git push origin HEAD`-pushする
+↓
+GitHub上でMerge pull request が完成した後
+↓
+`git switch main`-メイン移動
 
-↓pushする
+`git pull origin main`-最新化
 
-```bash
-git push origin HEAD
-```
+`git branch -d [使っていたブランチ]`-古いローカルブランチを消す
 
-↓GitHub上でMerge pull request が完成した後
-
-↓メイン移動
-
-```bash
-
-git switch main
-
-```
-
-↓最新化
-
-```bash
-
-git pull origin main
-
-```
-
-↓古いローカルブランチを消す
-
-```bash
-
-git branch -d [使っていたブランチ]
-
-```
-
-↓チェック
-
-```bash
-
-git status
-
-```
+`git status`-チェック
 
 終わり
